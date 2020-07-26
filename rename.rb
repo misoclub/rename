@@ -8,7 +8,7 @@ require 'exifr/jpeg'
 # ターゲットのパス
 path = ARGV[0] + "/"
 # ファイルの拡張子。とりまjpg関連だけ。
-target = "{JPG,jpg,jpeg,JPEG}"
+target = "{JPG}"
 # 書き出しファイル名。
 prefix = "img"
 # 要注意ファイルサイズ。20Mくらい。厳密には20,971,520
